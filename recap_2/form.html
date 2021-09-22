@@ -11,13 +11,78 @@
     <form action="result.html" method="get">
         <div>
             <label for="ad">isim:</label>
-            <input type="text" name="isim" id="ad">
+            <input type="text" name="isim" id="ad" placeholder="ad soyad" required>
             <br><br>
             <label for="soyad">soyad:</label>
             <input type="text" name="soyisim" id="soyad">
+            <br><br>
         </div>
+
         <div>
+            <label for="sifre">parola:</label>
+            <input type="password" name="girilen parola" id="sifre">
         </div>
+
+        <div>
+            <br><br>
+            <label>Cinsiyet:</label> <br>
+            <label for="gender1">Erkek</label>
+            <input type="radio" name="Cinsiyet" id="gender1" value="Erkek" ><br><br>
+            <label for="gender2">Kadın</label>
+            <input type="radio" name="Cinsiyet" id="gender2" value="Kadın" checked><br> <br>
+
+        </div>
+
+        <div>
+            <label>Favori Hayvanınızı seçiniz.</label> <br>
+            <input type="checkbox" name="animal_1" id="panda" value="Panda">
+            <label for="panda">Panda</label> <br>
+            <input type="checkbox" name="animal_2" id="balık" value="Balık">
+            <label for="balık">Balık</label> <br>
+            <input type="checkbox" name="animal_3" id="unicorn" value="unicorn">
+            <label for="unicorn">Unicorn</label>
+        </div>
+
+        <div>
+            
+            <br><label for="age">Age:</label>
+            <input type="number" name="number" id="age" max="40" min="0"><br><br>
+        </div>
+
+        <div>
+            <label for="ara">Search:</label>
+            <input type="search" name="arandı" id="ara" placeholder="ara...">
+        </div>
+
+        <div>
+            <label for="renk">Color:</label>
+            <input type="color" name="secilen renk" id="renk">
+        </div>
+
+        <div>
+            <label for="tarih">Tarih girin:</label>
+            <input type="date" name="girilen tarih" id="tarih" min="2020-09-01" max="2021-11-30" >
+        </div>
+<hr>
+        <div>
+            <label for="seker2">Hangi tatlıyı seversiniz</label>
+            <br>
+            <select name="tatlı" id="seker2" multiple size="8" >
+                <optgroup label="Sütlü tatlılar">
+                    <option value="Sütlaç">Sütlaç</option>
+                    <option value="Keşkül">Keşkül</option>
+                    <option value="Aşure">Aşure</option>
+                    <option value="Supangle">Supangle</option>
+                </optgroup>
+                <Optgroup label="Şerbetli Tatlılar">
+                    <option value="Baklava">Baklava</option>
+                    <option value="Künefe">Künefe</option>
+                    <option value="Katmer">Katmer</option>
+                </Optgroup>
+            </select>
+        </div>
+
+
 <br><br><br><br>
 <input type="submit" value="Send">
     </form>
