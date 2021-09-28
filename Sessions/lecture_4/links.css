@@ -1,0 +1,23 @@
+a{
+    padding: 5px;
+    text-decoration: none;
+    /* border: 1px solid red; */
+    background: darkorange;
+    border-radius: 30px;
+    color: white;
+}
+
+a:hover{
+    background-color: gray;
+    color: darkorange;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:active{
+    background-color: coral;
+}
+
+/* cdnjs ten link al fontawesome dan resmi bul ve link al */

@@ -1,0 +1,39 @@
+#par1{
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#par2{
+    color: red;
+    text-align: right;
+    text-decoration: overline;
+    text-transform: lowercase;
+    word-spacing: 10px;
+    font-weight: bolder;
+}
+#par3{
+    color: #00ff00;
+    text-align: left;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    font-size: 15 px;
+}
+#par4{
+    color: rgb(120, 155, 140);
+    text-align: justify;
+    text-decoration: overline dotted;
+    text-indent: 100px;
+    line-height: 2.5;
+    text-shadow: 3px 6px 1px red; 
+    /* x ve y ekseni 
+    -webkit-
+    -moz- farkli tarayicilarda sorunsuz calismak icin*/
+}
+ #par5{
+     color: violet;
+     text-decoration: underline;
+     letter-spacing: 7px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     /* google-fonts, copy link, paste within head as a link */
+ }
