@@ -1,0 +1,31 @@
+div {
+  background-color: coral;
+  width: 200px;
+  height: 100px;
+  margin: 5px;
+  color: white;
+  font-size: 45px;
+  display: inline-block;
+}
+#Box1 {
+  /* display: none; */
+  font-size: 45px;
+}
+#Box2 {
+  /* visibility: hidden; */
+  font-size: 45px;
+}
+#Box3 {
+    font-size: 45px;
+}
+span {
+  /* display: block; */
+  display: inline-block;
+  background-color: cyan;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+}
+a {
+  display: block;
+}
