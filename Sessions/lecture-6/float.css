@@ -1,0 +1,13 @@
+
+img{
+    width: 300px;
+    float: right;
+    margin: 10px;
+}
+
+p{
+    background-color: burlywood;
+    text-align: justify;
+    border: 2px solid black;
+    clear: left;
+}
