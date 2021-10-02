@@ -4,36 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/gfavicon.png" type="image/png">
     <title>Google</title>
 </head>
 <body>
-    <header id="header">
-        <nav id="left-header"> 
-            <a href="#/" target="_blank" >About</a>
-            <a href="#/" target="_blank" >Store</a>
+    <header>
+        <nav class="header-left"> 
+            <a href="#/" class="header-links" target="_blank" >About</a>
+            <a href="#/" class="header-links" target="_blank" >Store</a>
         </nav>
-        <nav id="right-header">
-            <a href="#/" target="_blank" >Gmail</a>
-            <a href="#/" target="_blank" >Images</a>
-            <a href="#/" target="_blank" id="appicon">
+        <nav class="header-right">
+            <a href="#/" class="header-links" target="_blank" >Gmail</a>
+            <a href="#/" class="header-links" target="_blank" >Images</a>
+            <a href="#/" class="header-links" target="_blank" id="appicon">
                 <img src="./images/appicon.png" alt="appicon">
             </a>
-            <button type="button" id="signIn">Sign In</button>
+            <button class="header-links" id="sign-in-btn">Sign In</button>
         </nav>
     </header>
+
         <div id="google">
             <img src="./images/googlelogo.png" alt="google">
         </div>
-        <div id="searchbar">
-            <input type="text" name="search">
-            <img id="magnifier" src="./images/Magnifying_glass_icon.png" alt="">
+
+        <div class="searchbar">
+            <input type="text" id="search">
+            <img id="mag" src="./images/Magnifying_glass_icon.png" alt="magnifying-glass">
             <a href="#">
-                <img src="./images/google_microphone.png" alt="google_microphone" id="mic">
+                <img src="./images/google_microphone.png" alt="google_microphone" id="microphone">
             </a>
         </div>
-        <div class="buttonContainer">
-            <button id="but1" type="button" name="but1"> Google Search</button>
-            <button id="but2" type="button" name="but2"> I'm Feeling Lucky</button>
+        <div class="btn-container">
+            <button id="btn1" type="button" name="button"> Google Search</button>
+            <button id="btn2" type="button" name="button"> I'm Feeling Lucky</button>
         </div>
         <div class="lang">
             <p id="language">Other languages you can use Google:
@@ -41,17 +45,17 @@
             </p>
         </div>
     <footer id="footer">
-        <div id="country">Turkey</div>
+        <div class="country">Turkey</div>
         </div>
-        <nav id="left-footer"> 
-            <a href="#/" target="_blank" >Advertising</a>
-            <a href="#/" target="_blank" >Business</a>
-            <a href="#/" target="_blank" >How Search Works</a>
+        <nav class="footer-left"> 
+            <a href="#/" class="footer-links" target="_blank" >Advertising</a>
+            <a href="#/" class="footer-links" target="_blank" >Business</a>
+            <a href="#/" class="footer-links" target="_blank" >How Search Works</a>
         </nav>
-        <nav id="right-footer">
-            <a href="#/" target="_blank" >Privacy</a>
-            <a href="#/" target="_blank" >Terms</a>
-            <a href="#/" target="_blank" >Settings</a>
+        <nav class="footer-right">
+            <a href="#/" class="footer-links" target="_blank" >Privacy</a>
+            <a href="#/" class="footer-links" target="_blank" >Terms</a>
+            <a href="#/" class="footer-links" target="_blank" >Settings</a>
         </nav>
     </footer>
 </body>
