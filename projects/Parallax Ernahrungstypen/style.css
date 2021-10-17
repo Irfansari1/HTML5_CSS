@@ -1,0 +1,95 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.background-container-image1{
+    background-image: url("./img/gewürze.jpg");
+}
+
+.background-container-image2{
+    background-image: url("./img/essen.jpg");
+}
+
+.background-container-image3{
+    background-image: url("./img/gemüse.jpg");
+}
+
+.background-container-image4{
+    background-image: url("./img/obst.jpg");
+}
+
+.background-container-image1, 
+.background-container-image2,
+.background-container-image3, 
+.background-container-image4{
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+
+}
+.heading-container-big{
+    color: rgb(31, 29, 29);
+    background-color: rgb(226, 206, 206);
+    padding: 2.1rem;
+    border-radius: 5rem;
+    /*border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;*/
+    font-size: 3rem;
+    text-transform: uppercase;
+    outline-width: 0.6rem;
+    outline-color: rgb(235, 220, 235);
+    outline-style: inset;
+    outline-offset: 1rem;
+    opacity: 0.7;
+    letter-spacing: 0.5rem;
+}
+.heading-container-logo{
+    border-radius: 4rem;
+    opacity: 0.7;
+}
+section{
+    background-color: rgb(241, 241, 241);
+    padding: 2rem 5rem;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 1.4rem;
+    letter-spacing: 0.02rem;
+}
+.dark{
+    background-color: rgb(117, 116, 116);
+    color: white;
+}
+p{
+    line-height: 1.7rem;
+}
+
+@media screen and (max-width: 600px){
+    .heading-container-big{
+        color: rgb(31, 29, 29);
+        background-color: rgb(226, 206, 206);
+        padding: 2.1rem;
+        border-radius: 5rem;
+        /*border-top-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;*/
+        font-size: 1rem;
+        text-transform: uppercase;
+        outline-width: 0.6rem;
+        outline-color: rgb(235, 220, 235);
+        outline-style: inset;
+        outline-offset: 1rem;
+        opacity: 0.7;
+        letter-spacing: 0.1rem;
+        flex-shrink: 1;
+    }
+    img{
+        display: block;
+        width: 80%;
+        margin-left: 3rem;
+     }
+}
