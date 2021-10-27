@@ -140,3 +140,80 @@ h3{
 #about-h3{
     padding: 0px;
 }
+.services{
+    display: grid;
+    grid-template-columns: 65% 30%;
+    grid-template-rows: auto;
+    margin: 5px 40px;
+    font-size: 15px;
+    line-height: 1.5;
+    row-gap: 5px;
+    column-gap: 5%;    
+}
+.content4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+    
+}
+.content5{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.content6{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.content7{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.content8{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 15px;
+    height: 300px;
+
+}
+.content5,
+.content6,
+.content7{
+    border: 1px solid #cccccc;
+    background-color: #e6e6e6;
+    padding: 30px 20px; 
+}
+.content7{
+    margin-bottom: 87px;
+}
+
+.quote input,
+.quote textarea{
+    border: 2px inset #767676;
+    padding: 5px;
+    font-size: 13.33px;
+    width: 100%;
+}
+.quote button{
+    width: 70px;
+    height: 38px;
+    background-color: #E44D27;
+    color: #ffffff;
+    border: 2px solid #35424a;
+}
+#ser-h3{
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
