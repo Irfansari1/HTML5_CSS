@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    /*height: 100vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div button {
+    padding: 2rem 5rem;
+    font-size: 2rem;
+    background: cyan;
+    border: none;
+    cursor: pointer;
+    animation: fade 1s ease forwards;
+}
+
+button {
+    animation: fade 1s ease forwards ;
+}
+
+@keyframes fade{
+    from{
+        opacity: 1;
+        pointer-events: all;
+    }
+    to{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+#trick2 {
+    width: 50%;
+    background-color: aquamarine;
+}
+
+h1{
+    height: 5rem;
+    margin: 2rem;
+}
+
